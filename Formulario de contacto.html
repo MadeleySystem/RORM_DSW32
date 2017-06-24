@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Formulario de contacto</title>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/estilo.css" rel="stylesheet">
+<link href="contacto.php">
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+ 
+<body>
+<div class="ajuste">
+  <div id="formulario">
+   <form role="form" action="contacto.php" method="POST" id="contacto" title="Nombre">
+   <label for="nombre">Nombre</label>
+   <input name="nombre" type="text" required="required" id="nombre" placeholder="nombre" tabindex="1" title="Nombre">
+   <br>
+   <label for="apellido">Apellidos</label>
+   <input name="apellidos" type="text" id="apellidos" placeholder="apellidos" tabindex="4" title="apellidos">
+   <br>
+   <label for="correo">Correo</label>
+   <input name="correo" type="correo" required="required" id="correo" placeholder="correo" tabindex="2" title="correo">
+   <br>
+   <label for="telefono">Teléfono</label>
+   <input name="telefono" type="text" id="telefono" placeholder="telefono" tabindex="3" title="Telefono">
+   <br>
+   
+   <label for="problema">Problema</label>
+   <input name="problema" type="problema" id="problema" placeholder="problema" tabindex="5" title="problema">
+   <br>
+   <label for="Mensaje">Mensaje</label>
+   <textarea name="mensaje" rows="4" id="mensaje" placeholder="mensaje" tabindex="6"></textarea>
+   <br>
+   <input type="submit" name="enviar" tabindex="7" value="Enviar"><input type="reset" tabindex="8" value="Borrar">
+   <input type="hidden" name="estado" value="1">
+   </form>
+  </div>
+</div>
+</body>
+</html>

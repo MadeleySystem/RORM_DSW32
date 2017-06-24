@@ -1,5 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
+body{background:#1CE5DC;}
 .wrap{
 	width: 800px;
 	margin: 0 auto;
@@ -15,3 +15,5 @@ pre {
     word-wrap: break-word;
 }
 .codigo{border:#ccc solid 1px;background:#ffffe6;clear:both;margin:2px 0 20px;overflow:auto;padding:10px;width:570px}
+
+.ajuste{ background:#1CE5DC; float: right; width: 70%; }
