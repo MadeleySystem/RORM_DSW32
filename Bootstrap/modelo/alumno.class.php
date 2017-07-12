@@ -18,23 +18,47 @@ class alumno extends database{
 			$this->error=$e->getMessage();
 	}
 	}
-	public function insertar(){
-		$data=array('1602288',"Adrian Morales",'1998-03-17','h','tic');
+	public function insertar($data){
+		try{
+		
 		$sql="insert into alumno(matricula, nombre, fecha_nac, sexo, carrera) values (?,?,?,?,?)";
 		
-		$stmt=$this->conn->prepare($sql);
-		$stmt->execute($data);
+		$stmt=$this->con->prepare($sql);
+		$stml->execute(array(
+			$data['Matricula'],
+			$data['Nombre'],
+			$data['Fecha_na'],
+			$data['sexo'],
+			$data['carrera']
+			));
+	}catch(PDOException $e){
+		$this->error=$e->getMessage();
+	}
+	}
+	public function eliminar($id){
+		try{
+			$sql="delete from alumno were id=?";
+			$stmt=$this->con->prepare
+	}
+	public function buscar($id){
+		try
+	{
+		$sql="select *fom alumno";
+		$stmt=$this->con-> prepare($sql);
+		$stmt->execute(array(
 		
-	}
-	public function eliminar(){
-	}
-	public function buscar(){
-	}
-	public function actualizar(){
-	}
-}
-$obj=new alumno();
-$obj->insertar();
+	public function actualizar($data){
+	try{
+		$sql="update alumno set matricula=?, nombre=?, fecha nac_na=?, sexo=?, carrera=? where matricula=?";
+		$stmt=$this->con ->prepare($sql);
+		$stmt->execute(array(
+			$data['Matricula'],
+			$data['Nombre'],
+			$data['Fecha_na'],
+			$data['sexo'],
+			$data['carrera'],
+			$data['matricula']
+			));	
 
 	
 ?>
