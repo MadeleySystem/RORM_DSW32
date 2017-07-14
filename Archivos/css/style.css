@@ -14,7 +14,7 @@ html, body {
 }
 .cover-background{
 	background-attachment: fixed;
-	background-color: #fff;
+	background-color:#E6F7BA ;
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -33,10 +33,10 @@ html, body {
     padding-bottom: 200px; 
 }
 .footer{
-	background-color: #000;
+	background-color: #11206B;
 	bottom: 0 !important;
     bottom: -1px;
-	color: #9f9f9f;
+	color: #E6F7BA;
 	height: 200px; 
 	overflow: hidden;
     position: absolute;
@@ -56,7 +56,7 @@ html, body {
 }
 /* ================================NavBar====================================*/
 .nav-phonestore{
-	background-color: #000;
+	background-color: #C32D1C;
 	height: 55px;
 	position: relative;
 }
@@ -65,7 +65,7 @@ html, body {
     height: 55px;
     width: 30%;
     line-height: 55px;   
-    color: #fff;
+    color: #06FAF9;
     text-align: center;
 }
 .navigation-list{
@@ -81,7 +81,7 @@ html, body {
 }
 .navigation-list > li a{
 	height: 55px;
-	color: #fff;
+	color: #06FAF9;
 	text-align: center;
 	text-decoration: none;
 	display: block;
@@ -101,7 +101,7 @@ html, body {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    color: #fff;
+    color: #06FAF9;
     line-height: 40px;
     text-align: center;
     font-size: 19px;
@@ -115,11 +115,11 @@ html, body {
 }
 .OS-phones{
 	background-color: rgba(231, 76, 60,0.9);
-	color: #E3D8AC;
+	color: #E6F7BA;
 	width: 100%;
 }
 .news-promo-content{
-	background-color: #fff;
+	background-color: #06FAF9;
 	width: 100%;
 }
 .content-dest{
@@ -128,26 +128,26 @@ html, body {
 }
 /* ================================Styles Producto====================================*/
 .content-carousel{
-	background-color: #E8D99B;
+	background-color: #E6F7BA;
 	margin: 0;
     padding: 0;
 	width: 100%;
 }
 .static-image-carousel{
-	background-color: #000;
+	background-color: #11206B;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 }
 .thumbnail-content-phones{
-	background: #ffffff; /* Old browsers */
-	background: linear-gradient(to bottom,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* W3C */
-	background: -moz-linear-gradient(top,  #ffffff 0%, #f6f6f6 47%, #ededed 100%); /* FF3.6+ */
-	background: -ms-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* IE10+ */
-	background: -o-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Opera 11.10+ */
-	background: -webkit-linear-gradient(top,  #ffffff 0%,#f6f6f6 47%,#ededed 100%); /* Chrome10+,Safari5.1+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(47%,#f6f6f6), color-stop(100%,#ededed)); /* Chrome,Safari4+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
+	background: #E6F7BA; /* Old browsers */
+	background: linear-gradient(to bottom,  #E6F7BA 0%,#E2D62B 47%,#06FAF9 100%); /* W3C */
+	background: -moz-linear-gradient(top,  #E6F7BA 0%,#E2D62B 47%, #06FAF9 100%); /* FF3.6+ */
+	background: -ms-linear-gradient(top,  #E6F7BA 0%,#E2D62B 47%,#06FAF9 100%); /* IE10+ */
+	background: -o-linear-gradient(top,  #E6F7BA 0%,#E2D62B 47%,#06FAF9 100%); /* Opera 11.10+ */
+	background: -webkit-linear-gradient(top,  #E6F7BA 0%,#E2D62B 47%,#06FAF9 100%); /* Chrome10+,Safari5.1+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#E6F7BA), color-stop(47%,#E6F7BA), color-stop(100%,#E6F7BA)); /* Chrome,Safari4+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#E6F7BA', endColorstr='#ededed',GradientType=0 ); /* IE6-9 */
 	padding-bottom: 15px;
 	padding-top: 15px;
 }
@@ -172,7 +172,7 @@ html, body {
 }
 .all-services{
 	background-color: rgba(236, 240, 241,0.9);
-	color: #000;
+	color: #11206B;
 }
 .principal-container-services{
     margin: 0;
@@ -181,7 +181,7 @@ html, body {
     width: 100%;
 }
 .principal-container-services > a{
-    background-color: #ecf0f1;
+    background-color: #E6F7BA;
     box-shadow: .5px .5px 3px #000;
     display: inline-block;
     height: 320px;
@@ -197,7 +197,7 @@ html, body {
     text-decoration: none;
 }
 .principal-container-services > a:hover{
-    background-color: #000;
+    background-color: #11206B;
     text-decoration: none;
     transition: all .3s linear;
     -moz-transition: all 400ms linear;
@@ -208,7 +208,7 @@ html, body {
 .icon-service,
 .tittle-service,
 .description-service {
-    color: #333;
+    color: #11206B;
     text-align: center;
     transition: all 400ms linear;
     -moz-transition: all 400ms linear;
@@ -230,7 +230,7 @@ html, body {
     padding:  10px 5px;
 }
 .principal-container-services > a:hover .icon-service{
-    color: #ff2020;
+    color: #C32D1C;
     opacity: .2;
     transform: scale(5,5) rotate(20deg) translate(5px,15px);
     -moz-transform: scale(5,5) rotate(20deg) translate(5px,15px);
@@ -260,7 +260,7 @@ html, body {
 }
 .contact-form-info{
 	background-color: rgba(0, 3, 0, 0.8);
-	color: #fff;
+	color: #E6F7BA;
 }
 .well{
 	background-color: rgba(231, 76, 60,0.2);
@@ -269,18 +269,18 @@ html, body {
 }
 .input-form-contact{
 	background-color: rgba(236, 240, 241,0.3);
-	color: #fff;
+	color: #E6F7BA;
 	font-style: italic;
 }
-.input-form-contact::-moz-placeholder { color:#fff;  opacity: .5;}
-.input-form-contact:-ms-input-placeholder { color:#fff;  opacity: .5;}
-.input-form-contact::-webkit-input-placeholder { color:#fff; opacity: .5;}
+.input-form-contact::-moz-placeholder { color:#E6F7BA;  opacity: .5;}
+.input-form-contact:-ms-input-placeholder { color:#E6F7BA;  opacity: .5;}
+.input-form-contact::-webkit-input-placeholder { color:#E6F7BA; opacity: .5;}
 /* ======================================= MediaQueries bootstrap =======================================*/
 
 @media (max-width: 767px) {
 	.jumbotron{
 		background-color: rgb(255,255,255);
-		color: #333;
+		color: #11206B;
 		padding-bottom: 60px;
 	}
     .jumbotron > p{
@@ -294,7 +294,7 @@ html, body {
     	top: 55px;
     	border-top: 1px solid rgba(255,255,255,.7);
     	width: 100%;
-    	background-color: #000;
+    	background-color: #11206B;
     	height: auto;
     	pointer-events: none;
     	opacity: 0;
@@ -312,7 +312,7 @@ html, body {
     	height: 55px;
     	width: 55px;
     	line-height: 55px;
-    	color: #fff;
+    	color: #E6F7BA;
     	position: absolute;
     	top: 0;
     	right: 0;

@@ -1,7 +1,6 @@
 <?php
 /**
  * Clase que imprelemnta el obj PDO para abrir y cerrar la conexión a la bd
- *
  * @param conn conserva el objeto a la conexión de la base de datos
  * @param error conserva el error que se pusiera generar durante la ejecución del código.
  */
